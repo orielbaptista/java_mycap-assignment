@@ -1,0 +1,14 @@
+package myproject;
+
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		
+		
+		String greeting = "HELLO WORLD";
+		System.out.println(greeting); 
+    }
+      }
+		
