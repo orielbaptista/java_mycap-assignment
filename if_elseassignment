@@ -1,0 +1,23 @@
+
+
+public class MyClass {
+    public static void main(String args[]) {
+        
+  int age=  20;
+  boolean canVote = true;
+  
+  if(age>18 && canVote == true){
+      System.out.println("you can vote");
+  }
+  else if(age<18 || canVote == false){
+      System.out.println("you can't vote");
+  }
+  else if (age==18 && canVote == true){
+      System.out.println("congrats you can now vote");
+  }
+  else{
+      System.out.println("Apologies an error has occured");
+  }
+     
+    }
+}
